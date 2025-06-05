@@ -1,0 +1,103 @@
+basic:
+    name: 'https://alaskamentalhealthtrust.org/'
+    environments:
+        production: 'https://alaskamentalhealthtrust.org/'
+        staging: 'https://mhttlostg.wpengine.com/'
+        development: ''
+    basicAuth:
+        production: { user: '', password: '' }
+        staging: { user: '', password: '' }
+        development: null
+    breakpoints:
+        - 640
+        - 1024
+        - 1200
+    pages:
+        - /
+        - /alaska-mental-health-trust-authority
+        - /about
+        - /about/history
+        - /about/governance/board-meetings
+        - /about/governance/board-meetings/meeting-minutes
+        - /about/governance/committees
+        - /beneficiaries/who-they-are
+        - /what-is-stigma
+        - /beneficiaries/alaskans
+        - /connect/contact-info
+        - /connect/news
+        - /connect/employment
+        - /alaska-mental-health-trust-authority/resources
+        - /trust-land-office/land-sales
+        - /trust-land-office/energy
+        - /trust-land-office/land-sales/otc
+        - /alaska-mental-health-trust-authority/resources/email-newsletter-archive
+        - /trust-land-office/how-does-the-trust-land-office-support-trust-beneficiaries
+        - /landpermits
+        - /alaska-mental-health-trust-authority/what-we-do/crisis-continuum-of-care
+        - /news/trust-year-end-audit-update
+        - /fy26-27-budget-development
+        - /news/recommendation-to-lease-trust-land-at-less-than-fair-market-value-to-anchorage-community-mental-health-services
+        - /news/best-interest-decision-affirmed-soldotna-mht-9300101
+        - /trust-land-office/land-sales/land-exchange
+        - /news/legislative-audit-update
+        - /trust-land-office/land-sales/maps-and-data
+        - /news/alaska-mental-health-trust-announces-2m-in-grant-awards
+        - /news/alaska-mental-health-trust-authority-announces-new-ceo
+        - /connect/partner-news-archive
+        - /calendar
+        - /news/event-organizer/katie-baldwin
+        - '/export-events/13987_0/?key=dfd4142041'
+        - /news/events/trustee-retreat-strategic-planning
+        - /news/events/audit-risk-committee-meeting-jul2025
+        - /news/event-organizer/julee-farley
+        - '/export-events/11828_0/?key=dfd4142041'
+        - /news/events/finance-committee-meeting-jul2025
+        - '/export-events/11834_0/?key=dfd4142041'
+        - /news/event-organizer/jusdi-warner
+        - '/export-events/11839_0/?key=dfd4142041'
+        - '/export-events/11843_0/?key=dfd4142041'
+        - /news/events/board-of-trustees-meeting-aug2025
+        - /news/event-organizer/allison-biastock
+        - /alaska-mental-health-trust-authority/what-we-do
+        - /alaska-mental-health-trust-authority/connect/contact
+        - /alaska-mental-health-trust-authority/advocacy
+        - /trust-land-office/land-sales/land-sales
+        - /trust-land-office/land-sales/biggameguidepermits
+        - /trust-land-office/connect/employment
+        - /alaska-mental-health-trust-authority/beneficiaries/data
+        - /alaska-mental-health-trust-authority/grants/partnership-grants
+        - /alaska-mental-health-trust-authority/grants/current-grantees
+        - /alaska-mental-health-trust-authority/what-we-do/disability-justice
+        - /alaska-mental-health-trust-authority/what-we-do/housing-home-and-community-based-services
+        - /alaska-mental-health-trust-authority/connect/staff
+        - /alaska-mental-health-trust-authority/connect/partners
+        - /alaska-mental-health-trust-authority/resources/annual-report
+        - /alaska-mental-health-trust-authority/resources/behavioral-health-systems-assessment
+    monitoring:
+        days: {  }
+        type: ''
+        schedule_time: '12:30 AM'
+        schedule_time_zone: Europe/London
+        compare_with: last-production
+        compare_with_fresh: production
+advanced:
+    mask: ''
+    remove: ''
+    delay: 15
+    scroll: true
+    headers:
+        - { header: '', value: '' }
+    cookies: ''
+    custom_js: ''
+    custom_css: ''
+    mock_content: ''
+    sensitivity: 15
+    night_mode: false
+    retina_images: false
+    single_ip: false
+    performance:
+        workers_production: 30
+        workers_nonproduction: 10
+        workers_production_delay: 0
+        workers_nonproduction_delay: 0
+    stabilize: true
