@@ -83,16 +83,16 @@ basic:
 advanced:
     mask: ''
     remove: ''
-    delay: 15
-    scroll: true
+    delay: 10
+    scroll: false
     headers:
-        - { header: '', value: '' }
+        - null
     cookies: ''
     custom_js: ''
     custom_css: ''
     mock_content:
         - { selector: '', type: title }
-    sensitivity: 30
+    sensitivity: 15
     night_mode: false
     retina_images: false
     single_ip: false
@@ -108,8 +108,8 @@ advanced:
         submit_selector: ''
         after_login_selector: ''
     performance:
-        workers_production: '20'
-        workers_nonproduction: '5'
+        workers_production: 30
+        workers_nonproduction: 10
         workers_production_delay: 0
         workers_nonproduction_delay: 0
     stabilize: true
